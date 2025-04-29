@@ -1,0 +1,21 @@
+//entrada
+//Definir num(leer)=0 como entero
+//Proceso 
+// si num > 0 Y num <= 100 Entonces
+//salida
+//Escribir "El numero es mayor que 0 y menor o igual que 100"
+//SiNo
+//Escribir "El numero no se encuentra entre 0 y 100"
+Algoritmo calculo
+	// Pedir al usuario un número y mostrar si es mayor 0 y menor o igual a 100
+	Definir num como entero
+	num=0
+	Escribir "Ingrese un numero"
+	Leer num
+	si num > 0 Y num <= 100 Entonces
+		Escribir "El numero es mayor que 0 y menor o igual que 100"
+	SiNo
+		Escribir "El numero no se encuentra entre 0 y 100"
+	FinSi
+	
+FinAlgoritmo

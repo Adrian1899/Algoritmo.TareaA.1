@@ -1,0 +1,22 @@
+//entrada
+//260 / 12 + 54 % 3 - 85 % 7 ^ 2 + abs(-1)
+//Definir resultado como real
+//Proceso 
+//resultado = 260 / 12 + 54 mod 3 - 85 mod 7 ^ 2 + abs(-1)
+//Escribir  "260 / 12  + 54 mod 3 - 85 mod ", 7 ^ 2 ," + ", abs(-1)resolvemos el valor absoluto
+//Escribir  260 / 12 ," + 54 mod 3 - 85 mod ", 7 ^ 2, " + ", abs(-1)
+//Escribir 260 / 12 ," + " ,54 mod 3 ," - " ,85 mod 7 ^ 2, " + ", abs(-1)
+//Escribir 260 / 12  +  54 mod 3 - 85 mod 7 ^ 2 + abs(-1)
+//escribir -13.3333333
+Algoritmo calculo
+	definir resultado Como Real
+	resultado=0
+	//260 / 12 + 54 % 3 - 85 % 7 ^ 2 + abs(-1)
+	resultado = 260 / 12 + 54 mod 3 - 85 mod 7 ^ 2 + abs(-1)
+	Escribir "260 / 12 + 54 mod 3 - 85 mod 7 ^ 2 + abs(-1)"
+	Escribir "260 / 12  + 54 mod 3 - 85 mod ", 7 ^ 2 ," + ", abs(-1)
+	Escribir 260 / 12 ," + 54 mod 3 - 85 mod ", 7 ^ 2, " + ", abs(-1)
+	Escribir 260 / 12 ," + " ,54 mod 3 ," - " ,85 mod 7 ^ 2, " + ", abs(-1)
+	Escribir 260 / 12  +  54 mod 3 - 85 mod 7 ^ 2 + abs(-1)
+	Escribir resultado
+FinAlgoritmo

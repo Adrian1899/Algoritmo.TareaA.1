@@ -1,0 +1,22 @@
+//entrada
+//Definir edad(leer)=0 como entero
+//Proceso 
+//leer num
+//si edad >= 18 Entonces
+//salida
+//Escribir "Eres mayor de edad"
+//SiNo
+//Escribir "Eres menor de edad"
+Algoritmo calculo
+	//Solicitar al usuario su edad y mostrar si es mayor o menor de edad. 
+	Definir edad Como entero
+	edad=0
+	Escribir "Ingrese su edad"
+	Leer edad
+	si edad >= 18 Entonces
+		Escribir "Eres mayor de edad"
+	SiNo
+		Escribir "Eres menor de edad"
+	FinSi
+	
+FinAlgoritmo

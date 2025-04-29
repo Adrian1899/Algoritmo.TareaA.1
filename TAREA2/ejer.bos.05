@@ -1,0 +1,22 @@
+//entrada
+//((8 > 2) O (932 < 23) ) Y 4 == 2
+//Definir resultado como real
+//Proceso 
+//resultado = ((8 > 2) O (932 < 23) ) Y 4 == 2
+//Escribir  "((8 > 2) O (932 < 23) ) Y 4 == 2"resolvemos el parentesis
+//Escribir  " ( ", (8 > 2) ," O ", (932 < 23) , " ) ", " Y ", 4 == 2
+//Escribir ( (8 > 2)  O  (932 < 23) ), " Y ", 4 == 2
+//Escribir ( (8 > 2)  O  (932 < 23) ) Y 4 == 2
+//escribir FALSO
+
+Algoritmo calular
+	Definir resultado como logico
+	//((8 > 2) O (932 < 23) ) Y 4 == 2
+	resultado = ((8 > 2) O (932 < 23) ) Y 4 == 2
+	Escribir "((8 > 2) O (932 < 23) ) Y 4 == 2"
+	Escribir " ( ", (8 > 2) ," O ", (932 < 23) , " ) ", " Y ", 4 == 2
+	Escribir ( (8 > 2)  O  (932 < 23) ), " Y ", 4 == 2
+	Escribir ( (8 > 2)  O  (932 < 23) ) Y 4 == 2
+	Escribir resultado 
+
+FinAlgoritmo

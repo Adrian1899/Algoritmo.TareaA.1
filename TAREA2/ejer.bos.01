@@ -1,0 +1,17 @@
+Algoritmo operacion_matemática
+	//Para a=8 y b=5 encuentre el valor de v = 2 * b + a div 2 + 4 * b mod a
+	Definir a, b Como Entero
+	//Se definen las vaariables
+	//a<-8, b<-5
+	a<-8
+	b<-5
+	Escribir " Se va a resolver la siguiente operacíon paso a paso: "
+	Escribir " v = 2 * b + a div 2 + 4 * b mod a "
+	Escribir " v = 2 * 5 + trunc(8/2) + 4 * 5 mod 8 "
+	//Se resuelven primero las multiplicaciones y divisiones de derecha a izquierda
+	//Después las sumas
+	Escribir " v = ", 2 * 5, " + ", trunc(8/2)," + ",4 * 5," mod 8 "
+	Escribir " v = ", 2 * 5 + trunc(8/2)," + ",4 * 5 mod 8 
+	Escribir  " v = ", 2 * 5 + trunc(8/2) + 4 * 5 mod 8 
+
+FinAlgoritmo

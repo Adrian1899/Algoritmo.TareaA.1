@@ -1,0 +1,19 @@
+//entrada
+//Definir salario, por_aumento=(leer) nuevo_salario=(calcular) Como Real
+//Proceso 
+//nuevo_salario=salario+(salario*por_aumento/100)
+//salida
+//Escribir "Su nuevo salario despues del aumento es: ", nuevo_salarioEscribir "Su nuevo salario despues del aumento es: ", nuevo_salario
+//FinSi
+Algoritmo calculo
+	//Calculadora de sueldo con aumento: Pide al usuario que ingrese su salario actual y el porcentaje de aumento que recibirá. Calcula y muestra el nuevo salario después del aumento. 
+	Definir salario, por_aumento, nuevo_salario como real
+	salario=0;por_aumento=0;nuevo_salario=0
+	Escribir "Ingrese su salario actual"
+	leer salario
+	Escribir "Ingrese el porcentaje de aumento"
+	Leer por_aumento
+	//por_aumento=por_aumento/100
+	nuevo_salario=salario+(salario*por_aumento/100)
+	Escribir "Su nuevo salario despues del aumento es: ", nuevo_salario
+FinAlgoritmo

@@ -1,0 +1,29 @@
+//entrada
+//Definir num1=(leer) Como entero
+//Proceso 
+//si num1 < -20 Entonces
+//sino si num1 > 0 y num1 mod 2 = 0 Entonces
+//si divisble=0 entonces
+//sino si num1 mod 2 <> 0 y num1 mod 7 = 0 entonces
+//salida
+//Escribir "El numero es negativo menor que -20"
+//Escribir "El numero es positivo y par"
+//Escribir "El numero es impar y multiplo de 7"
+//FinSi
+Algoritmo calculo
+	//Pedir al usuario un número y mostrar si es negativo menor que -20, sino mostrar si es positivo par o impar múltiplo de 7.
+	Definir num1 Como Entero
+	num1=0
+	Escribir "Ingrese un numero"
+	Leer num1
+	si num1 < -20 Entonces
+		Escribir "El numero es negativo menor que -20"
+	sino si num1 > 0 y num1 mod 2 = 0 Entonces
+			Escribir "El numero es positivo y par"
+		sino si num1 mod 2 <> 0 y num1 mod 7 = 0 entonces
+				Escribir "El numero es impar y multiplo de 7"
+			finsi 
+		FinSi
+		
+	FinSi
+FinAlgoritmo

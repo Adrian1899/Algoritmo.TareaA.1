@@ -1,0 +1,31 @@
+//entrada
+//Definir año(leer)=0 como entero
+//definir monto_total(leer)=0, nuevo_monto(calcular)=0, iva_calculado(calcular), iva(leer)=0.12, iva2(leer)=0.15 como real
+//Proceso 
+//si año < 2024 Entonces
+//nuevo_monto=monto_total*(1+iva)
+//SiNo
+//nuevo_monto=monto_total*(1+iva2)
+//salida
+//Escribir "El monto total a pagar incluyendo el iva es de: ", nuevo_monto
+//Escribir "El monto total a pagar incluyendo el iva es de: ", nuevo_monto
+Algoritmo calculo
+	// Pedir al usuario el monto total de una factura y el año de la  compra. Luego, calcular y mostrar el monto total a pagar 
+	//incluyendo el IVA. Si el año de la compra es menor al 2024 el porcentaje del IVA es del 12% caso contrario aplicar el IVA del 15%.  
+	Definir monto_total, nuevo_monto, iva_calculado, iva, iva2 Como Real
+	Definir año Como Entero
+	monto_total=0;nuevo_monto=0;iva_calculado=0;iva=0.12; iva2=0.15;año=0
+	Escribir "Ingrese el monto total de la factura"
+	Leer monto_total
+	Escribir "Ingrese el año"
+	Leer año
+	si año < 2024 Entonces
+		nuevo_monto=monto_total*(1+iva)
+		//nuevo_monto=monto_total+(iva*monto_total)
+		Escribir "El monto total a pagar incluyendo el iva es de: ", nuevo_monto
+	SiNo
+		nuevo_monto=monto_total*(1+iva2)
+		//nuevo_monto=monto_total+(iva2*monto_total)
+		Escribir "El monto total a pagar incluyendo el iva es de: ", nuevo_monto
+	FinSi
+FinAlgoritmo

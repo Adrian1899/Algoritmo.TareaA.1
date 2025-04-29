@@ -1,0 +1,27 @@
+// Pedir dos nombres e indicar si son iguales, si el primer nombre es mayor que el segundo o menor que el segundo 
+//entrada
+//Definir nombre1(leer)="" nombre2(leer)="" como caracter
+//Proceso 
+//si nombre1 = nombre2 Entonces
+//sino si nombre1 > nombre2 entonces
+//salida
+//Escribir "Los nombres son iguales"
+//Escribir "El primer nombre es mayor"
+//Escribir "El primer nombre es menor"
+	Algoritmo nombres_iguales
+		Definir nombre1, nombre2 como caracter
+		nombre1="";nombre2=""
+		Escribir "Ingrese el primer nombre"
+		leer nombre1
+		Escribir "Ingrese el segundo nombre"
+		leer nombre2
+		si nombre1 = nombre2 Entonces
+			Escribir "Los nombres son iguales"
+		sino si nombre1 > nombre2 entonces
+				Escribir "El primer nombre es mayor"
+			sino 
+				Escribir "El primer nombre es menor"
+				
+			FinSi
+		FinSi
+FinAlgoritmo

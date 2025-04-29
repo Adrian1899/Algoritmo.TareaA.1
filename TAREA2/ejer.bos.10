@@ -1,0 +1,47 @@
+//entrada
+//Definir tipoTarjeta(leer)=0 como entero
+//definir limiteActual(leer)=0, limiteNuevo(calcular)=0 como real
+//Proceso 
+// Si tipoTarjeta = 1 Entonces
+//limiteNuevo = limiteActual + 100
+//Sino Si tipoTarjeta = 2 Entonces
+//limiteNuevo = limiteActual + 200
+//Sino Si tipoTarjeta = 3 Entonces
+//limiteNuevo = limiteActual + 300
+//Sino
+//limiteNuevo = limiteActual + 500
+//FinSi
+//limiteNuevo = limiteNuevo * 1.10
+//salida
+//Escribir "El nuevo límite de crédito es: ", limiteNuevo
+Algoritmo AumentoCredito
+	// El banco POO ha decidido aumentar el límite de crédito de las tarjetas de crédito de sus clientes, para esto considera que: 
+    //Si su cliente tiene tarjeta tipo 1, el aumento será del  $100 .
+	//si tiene tipo 2 el aumento sera del $200
+	//Si tiene tipo 3, el aumento será del $300 
+	//Para cualquier otro tipo será del 500 
+    //Se pide realizar un algoritmo que ayude al banco a determinar el nuevo límite de crédito que tendrá una persona en su tarjeta considerando que después del aumento se tendrá que subir 10% adicionales a todas las tarjetas
+    Definir tipoTarjeta Como Entero
+    Definir limiteActual, limiteNuevo Como Real
+	tipoTarjeta=0;limiteActual=0;limiteNuevo=0
+    Escribir "Ingrese el tipo de tarjeta (1, 2, 3 u otro): "
+    Leer tipoTarjeta
+	
+    Escribir "Ingrese el límite actual de la tarjeta: "
+    Leer limiteActual
+	
+    // Aplicar aumento según tipo de tarjeta
+    Si tipoTarjeta = 1 Entonces
+        limiteNuevo = limiteActual + 100
+    Sino Si tipoTarjeta = 2 Entonces
+			limiteNuevo = limiteActual + 200
+		Sino Si tipoTarjeta = 3 Entonces
+				limiteNuevo = limiteActual + 300
+			Sino
+				limiteNuevo = limiteActual + 500
+			FinSi
+		FinSi
+	FinSi
+	limiteNuevo = limiteNuevo * 1.10
+	Escribir "El nuevo límite de crédito es: ", limiteNuevo
+FinAlgoritmo

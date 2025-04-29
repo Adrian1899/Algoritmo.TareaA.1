@@ -1,0 +1,23 @@
+//entrada
+//Definir  letra(leer)="" como caracter
+//Proceso 
+//leer letra
+//si letra = "a" o letra = "e" o letra = "i" o letra = "o" o letra = "u" Entonces
+//salida
+//Escribir "Es una vocal"
+//SiNo
+//Escribir "No es una vocal"
+Algoritmo vocal
+	// Solicitar al usuario un carácter y mostrar si es una vocal
+	Definir letra como caracter
+	letra=""
+	Escribir "Ingrese un caracter"
+	leer letra
+	si letra = "a" o letra = "e" o letra = "i" o letra = "o" o letra = "u" Entonces
+		Escribir "Es una vocal"
+	SiNo
+		Escribir "No es una vocal"
+	FinSi
+	
+FinAlgoritmo
+

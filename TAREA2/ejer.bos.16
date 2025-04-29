@@ -1,0 +1,20 @@
+// Solicitar al usuario un número y mostrar si es un número de un solo dígito.
+//entrada
+//Definir num(leer)=0 como entero
+//Proceso 
+//si num >= -9 y num <= 9 Entonces
+//salida
+//Escribir "Es un numero de un solo digito"
+//sino
+//Escribir "No es un numero de un solo digito"
+	Algoritmo numero_de_un_solo_digito
+		Definir num como entero
+		num=0
+		Escribir "Ingrese un numero"
+		leer num
+		si num >= -9 y num <= 9 Entonces
+			Escribir "Es un numero de un solo digito"
+		sino
+			Escribir "No es un numero de un solo digito"
+		FinSi
+FinAlgoritmo

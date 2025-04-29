@@ -1,0 +1,25 @@
+//entrada
+//Definir num(leer)=0 como entero
+//Proceso 
+// Si num > 10 Entonces
+// Sino Si num < 10 Entonces
+//salida
+//Escribir "El número ", num, " es MAYOR que 10"
+//Escribir "El número ", num, " es MENOR que 10"
+//Escribir "El número es IGUAL a 10"
+Algoritmo CompararConDiez
+    Definir num Como entero
+    num=0
+    Escribir "Ingrese un número:"
+    Leer num
+    
+    Si num > 10 Entonces
+        Escribir "El número ", num, " es MAYOR que 10"
+    Sino Si num < 10 Entonces
+			Escribir "El número ", num, " es MENOR que 10"
+		Sino
+			Escribir "El número es IGUAL a 10"
+		FinSi
+	FinSi
+	
+FinAlgoritmo

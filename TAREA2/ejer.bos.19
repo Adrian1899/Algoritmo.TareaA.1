@@ -1,0 +1,27 @@
+//entrada
+//definir nota(leer)=0 como entero
+//Proceso 
+//si nota >= 60 Entonces
+//sino si nota > 40 Y nota < 60 Entonces
+//salida
+//Escribir "Se queda para recuperacion"
+//Escribir "Pierde la materia"
+Algoritmo calculo
+	// Pedir al usuario su nota en un examen y determinar si ha aprobado o reprobado, 
+	//considerando que la nota mínima de aprobación es 60 puntos. Si la nota es mayor a 
+		//40 y menor a 60 se queda para recuperación caso contario pierde la materia.  
+	Definir nota Como Entero
+	nota=0
+	Escribir "Ingrese su nota de examen"
+	Leer nota
+	si nota >= 60 Entonces
+		Escribir "Aprobado"
+	sino si nota > 40 Y nota < 60 Entonces
+			Escribir "Se queda para recuperacion"
+		SiNo
+			Escribir "Pierde la materia"
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo
